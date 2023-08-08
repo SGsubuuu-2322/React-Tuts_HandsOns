@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMT_Mini-Project</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+      .App {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+      }
+
+      form {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      form div {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      button {
+        width: 120px;
+        padding-block: 5px;
+        cursor: pointer;
+      }
+
+      th,
+      td {
+        padding: 10px;
+      }
+
+      input {
+        padding: 5px;
+        font-size: 1.1rem;
+      }
+
+      .served {
+        background-color: red;
+      }
+      .dining {
+        background-color: lime;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./script.js" type="text/babel"></script>
+  </body>
+</html>
